@@ -1,0 +1,9 @@
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\bin\Debug\netcoreapp2.1\Engie.Sign.Rest.deps.json
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\bin\Debug\netcoreapp2.1\Engie.Sign.Rest.dll
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\bin\Debug\netcoreapp2.1\Engie.Sign.Rest.pdb
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\obj\Debug\netcoreapp2.1\Engie.Sign.Rest.csproj.CoreCompileInputs.cache
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\obj\Debug\netcoreapp2.1\Engie.Sign.Rest.AssemblyInfoInputs.cache
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\obj\Debug\netcoreapp2.1\Engie.Sign.Rest.AssemblyInfo.cs
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\obj\Debug\netcoreapp2.1\Engie.Sign.Rest.dll
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\obj\Debug\netcoreapp2.1\Engie.Sign.Rest.pdb
+C:\Git\engie\EngiePOC\Engie.Sign.Soap\obj\Debug\netcoreapp2.1\Engie.Sign.Rest.csprojAssemblyReference.cache

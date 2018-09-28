@@ -1,0 +1,9 @@
+C:\Git\engie\EngiePOC\Engie.Standard\bin\Debug\netstandard2.0\Engie.Standard.deps.json
+C:\Git\engie\EngiePOC\Engie.Standard\bin\Debug\netstandard2.0\Engie.Standard.dll
+C:\Git\engie\EngiePOC\Engie.Standard\bin\Debug\netstandard2.0\Engie.Standard.pdb
+C:\Git\engie\EngiePOC\Engie.Standard\obj\Debug\netstandard2.0\Engie.Standard.csprojAssemblyReference.cache
+C:\Git\engie\EngiePOC\Engie.Standard\obj\Debug\netstandard2.0\Engie.Standard.csproj.CoreCompileInputs.cache
+C:\Git\engie\EngiePOC\Engie.Standard\obj\Debug\netstandard2.0\Engie.Standard.AssemblyInfoInputs.cache
+C:\Git\engie\EngiePOC\Engie.Standard\obj\Debug\netstandard2.0\Engie.Standard.AssemblyInfo.cs
+C:\Git\engie\EngiePOC\Engie.Standard\obj\Debug\netstandard2.0\Engie.Standard.dll
+C:\Git\engie\EngiePOC\Engie.Standard\obj\Debug\netstandard2.0\Engie.Standard.pdb

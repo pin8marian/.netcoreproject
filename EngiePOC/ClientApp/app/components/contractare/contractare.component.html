@@ -1,0 +1,86 @@
+<h1>Contractare</h1>
+
+<ng-template #template>
+    <div class="modal-header">
+        <h4 class="modal-title pull-left">Redirectare</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-sm">
+                <p class="text-center" *ngIf="loadLinks else showLinks">
+                    Se incarca linkurile...
+                </p>
+                <ng-template #showLinks>
+                    <div class="row">
+                        <div class="col-sm">
+                            <a class="btn btn-info btn-large btn-block" [href]="urlHref" target="_blank">
+                                Deschide URL
+                            </a>
+                        </div>
+                        <div class="col-sm">
+                            <a class="btn btn-success btn-large btn-block" [href]="appHref" target="_blank">
+                                Deschide Aplicatie
+                            </a>
+                        </div>
+                    </div>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+
+<div class="alert alert-light">
+    <form class="form-inline" (ngSubmit)="search()">
+        <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" placeholder="Nr contract" [(ngModel)]="searchParams.nr_contract" name="nr_contract">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" placeholder="Nume contractant" [(ngModel)]="searchParams.nume_contractant" name="nume_contractant">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" placeholder="Telefon" [(ngModel)]="searchParams.telefon" name="telefon">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" placeholder="CNP" [(ngModel)]="searchParams.cnp" name="cnp">
+        </div>
+        <button type="submit" class="btn btn-outline-dark mb-2">
+            Cautare
+        </button>
+    </form>
+</div>
+
+<p *ngIf="!items"><em>Loading...</em></p>
+
+<table class="table" *ngIf="items">
+    <thead>
+        <tr>
+            <th colspan="2" scope="col">Numar contractant</th>
+            <th scope="col">Nume Prenume</th>
+            <th scope="col">Localitate</th>
+            <th scope="col">Strada</th>
+            <th scope="col">Numar casa</th>
+            <th scope="col">Judet</th>
+            <th scope="col">Telefon</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of items">
+            <th scope="row">
+                <a (click)="sendToSign(item, template)" class="btn btn-outline-info">
+                    Alege
+                </a>
+            </th>
+            <td>{{item.nr_contract}}</td>
+            <td>{{item.nume_contractant}}</td>
+            <td>{{item.localitate}}</td>
+            <td>{{item.strada}}</td>
+            <td>{{item.nr}}</td>
+            <td>{{item.judet}}</td>
+            <td>{{item.tel}}</td>
+        </tr>
+    </tbody>
+</table>

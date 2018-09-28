@@ -1,0 +1,6 @@
+C:\Git\engie\EngiePOC\EngieDAL\bin\Debug\netcoreapp2.0\EngieDAL.deps.json
+C:\Git\engie\EngiePOC\EngieDAL\bin\Debug\netcoreapp2.0\EngieDAL.dll
+C:\Git\engie\EngiePOC\EngieDAL\obj\Debug\netcoreapp2.0\EngieDAL.csprojAssemblyReference.cache
+C:\Git\engie\EngiePOC\EngieDAL\obj\Debug\netcoreapp2.0\EngieDAL.csproj.CoreCompileInputs.cache
+C:\Git\engie\EngiePOC\EngieDAL\obj\Debug\netcoreapp2.0\EngieDAL.AssemblyInfoInputs.cache
+C:\Git\engie\EngiePOC\EngieDAL\obj\Debug\netcoreapp2.0\EngieDAL.AssemblyInfo.cs

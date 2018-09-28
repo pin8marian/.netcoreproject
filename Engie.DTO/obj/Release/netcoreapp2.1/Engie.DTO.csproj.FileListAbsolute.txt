@@ -1,0 +1,9 @@
+C:\Git\engie\EngiePOC\Engie.DTO\bin\Release\netcoreapp2.1\Engie.DTO.deps.json
+C:\Git\engie\EngiePOC\Engie.DTO\bin\Release\netcoreapp2.1\Engie.DTO.dll
+C:\Git\engie\EngiePOC\Engie.DTO\bin\Release\netcoreapp2.1\Engie.DTO.pdb
+C:\Git\engie\EngiePOC\Engie.DTO\obj\Release\netcoreapp2.1\Engie.DTO.csprojAssemblyReference.cache
+C:\Git\engie\EngiePOC\Engie.DTO\obj\Release\netcoreapp2.1\Engie.DTO.csproj.CoreCompileInputs.cache
+C:\Git\engie\EngiePOC\Engie.DTO\obj\Release\netcoreapp2.1\Engie.DTO.AssemblyInfoInputs.cache
+C:\Git\engie\EngiePOC\Engie.DTO\obj\Release\netcoreapp2.1\Engie.DTO.AssemblyInfo.cs
+C:\Git\engie\EngiePOC\Engie.DTO\obj\Release\netcoreapp2.1\Engie.DTO.dll
+C:\Git\engie\EngiePOC\Engie.DTO\obj\Release\netcoreapp2.1\Engie.DTO.pdb
